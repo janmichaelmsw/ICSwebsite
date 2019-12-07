@@ -621,3 +621,239 @@ a.contact-link:hover {
 #insurance-content {
   padding-bottom: 30px;
 }
+/* Style for mobile screen (iphone 6, 7, 8) */
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Navigation Bar */
+    .logo {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        letter-spacing: 0px;
+    }
+    nav.navbar-findcond ul.dropdown-menu > li > a {
+        font-size: 14px;
+    }
+    nav.navbar-findcond span.badge {
+        font-size: 20px;
+    }
+    /* Main Content */
+    .content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 10px;
+        letter-spacing: 3px;
+    }
+    h2 {
+        font-size: 32px;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-shadow: 0.5px 0.5px rgba(144,184,194,1);
+    }
+    h4 {
+        margin: 10px;
+    }
+    /* Footnote */
+    .ender-address {
+        font-size: 14px;
+        float: left;
+        padding-left: 5px;
+        font-weight: 400;
+    }
+    .ender-text {
+        font-size: 13px;
+        float: right;
+        padding-top:5px;
+        padding-right: 10px;
+        font-weight: 200;
+    }
+    /* Index Page */
+    .welcome-page {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 5px;
+        margin-right:5px;
+        margin-top: 70px;
+    }
+    #block2 {
+        margin-bottom:10%;
+        padding-bottom: 10px;
+        line-height: 100%;
+    }
+    #img-col {
+        margin-left: 0px;
+    }
+    .intro-img {
+        float: left;
+        margin-top: -10px;
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 10px;
+        height: 40vh;
+    }
+    .intro-subtext {
+      font-size: 22px;
+      text-align: center;
+      line-height: 150%;
+    }
+    .welcome-text2 {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-bottom: 20px;
+        padding-top: 35px;
+    }
+    .intro-office-photo {
+      width: 85vw;
+      height: auto;
+      margin: 20px;
+      padding: 5px;
+    }
+    /* About Page */
+    #jan-description {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+    .intro-text2 {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    #about-img1 {
+      margin-bottom: 30px;
+    }
+    /* Contact Page */
+    .contact-intro-text2 {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .contact-table {
+      margin-top: 0px;
+    }
+    #contact-details {
+      margin-top:70px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+    .contact-map {
+      overflow:hidden;
+      padding-bottom:90%;
+      position:relative;
+      height:0;
+    }
+    .contact-map iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+    .contact-icon {
+        margin-right: 0px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .contact-text {
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #contactInfo {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right:10px;
+    }
+    .col1 {
+      padding-left: 0px;
+    }
+    .col3 {
+      padding-left: 5px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+    .col2 {
+      padding-right: 5px;
+      font-weight: 600;
+      padding-bottom: 5px;
+    }
+    /* New Forms Page */
+    .newforms-img-div {
+      margin-right: 10px;
+      width:0vw;
+    }
+    #newforms-img {
+      width:0vw;
+      padding:0;
+      /* width: 40vw; */
+      /* padding: 5px; */
+      /* margin-top: 5%; */
+    }
+    .newforms-heading {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        /* font-size: 30px; */
+    }
+    .service-text2 {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    /* Insurance Page */
+    #img-insurance {
+      width: 100%;
+      max-width: 80vw;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      padding: 5px;
+    }
+    .service-text-1 {
+        font-size: 18px;
+        margin-left: 10%;
+        padding-left: 0px;
+        padding-right: 5%;
+        padding-top: 40px;
+    }
+    .service-list-1 {
+      font-size: 18px;
+      margin-left: 20%;
+      padding-left: 0px;
+      padding-right: 10%;
+    }
+    .service-text {
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .service-text-note {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .service-list {
+      margin-left: 15%;
+      font-size: 18px;
+      padding-left: 10%;
+      padding-right:10%;
+    }
+  }
+
