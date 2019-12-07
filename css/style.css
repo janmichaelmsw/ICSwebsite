@@ -50,6 +50,12 @@ body {
     /*color: #2a2a2a;*/
     /*color: rgba(78,126,149,1);*/
 }
+.content {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 h1 {
     color: rgba(58,72,81,1);
@@ -381,7 +387,7 @@ ul.navbar-nav {
     padding-right: 4.5px;
 }
 .contact-icon:hover {
-    color: #555;
+    color: rgba(58,72,81,1);
 }
 .contact-heading {
     font-family: 'Playfair Display', serif;
@@ -531,6 +537,7 @@ a.contact-link:hover {
 }
 .newforms-img-div {
   margin-right: -80px;
+  z-index: 1;
 }
 
 /* Insurance page */
