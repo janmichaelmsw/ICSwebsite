@@ -56,7 +56,6 @@ body {
     padding-right: 30px;
     padding-left: 30px;
 }
-
 h1 {
     color: rgba(58,72,81,1);
     font-family: 'Playfair Display SC', serif;
@@ -387,7 +386,7 @@ ul.navbar-nav {
     padding-right: 4.5px;
 }
 .contact-icon:hover {
-    color: rgba(58,72,81,1);
+    color: #555;
 }
 .contact-heading {
     font-family: 'Playfair Display', serif;
@@ -537,7 +536,6 @@ a.contact-link:hover {
 }
 .newforms-img-div {
   margin-right: -80px;
-  z-index: 1;
 }
 
 /* Insurance page */
@@ -712,8 +710,8 @@ a.contact-link:hover {
     }
     .welcome-text2 {
         font-size: 18px;
-        padding-left: 10px;
-        padding-right:10px;
+        padding-left: 15%;
+        padding-right:15%;
         padding-bottom: 20px;
         padding-top: 35px;
     }
@@ -856,4 +854,3 @@ a.contact-link:hover {
       padding-right:10%;
     }
   }
-
