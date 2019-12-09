@@ -484,9 +484,6 @@ a.contact-link:hover {
   background: rgba(63,103,124,1);
 }
 #about-img1 {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
   margin-left: 60px;
   margin-right: 60px;
   float: right;
@@ -737,9 +734,8 @@ a.contact-link:hover {
     }
     #about-img1 {
       margin-bottom: 30px;
-      /* margin-left: 100px;
-      margin-right: 100px; */
-      /* display: block; */
+      margin-left: 20%;
+      margin-right: 20%;
     }
     #about-block {
       margin-top: 90px;

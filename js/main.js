@@ -13,7 +13,7 @@ var navBarCode = `    <div class="container">
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active highlight"><a href="about2.html">about<span class="sr-only">(current)</span></a></li>
+                <li class="active highlight"><a href="about.html">about<span class="sr-only">(current)</span></a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">services<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
